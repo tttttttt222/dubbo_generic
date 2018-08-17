@@ -28,6 +28,9 @@
         <lombok.version>1.16.6</lombok.version>
         <curator-framework.version>4.0.0</curator-framework.version>
         <servlet-api.version>3.1.0</servlet-api.version>
+        <slf4j-log4j12.version>1.7.21</slf4j-log4j12.version>
+        <slf4j.version>1.7.9</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
     </properties>
 
     <dependencies>
