@@ -19,10 +19,10 @@ public class TestController {
     private ReleaseManagerImpl releaseManager;
 
     @RequestMapping(value = "hello.do", method = RequestMethod.GET)
-    void transReq() throws Throwable {
+    String transReq() throws Throwable {
         Object o = releaseManager.doInvoke();
         System.out.println(o);
-
+        return  o.toString();
     }
 
 
